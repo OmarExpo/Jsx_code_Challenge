@@ -11,7 +11,7 @@ function addData(obj){
   updateDOM();
 }
 
- // Money formatting function
+ // Money formatting function *
  function moneyFormat(number){
   //return "$"+(number?.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')); ** found in Stack overflow site **
   return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(number);

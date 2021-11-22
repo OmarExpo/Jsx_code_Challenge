@@ -6,7 +6,7 @@ router
   .on({
   	"/": () => {
       
-      //**  Selecting DOM elements
+      //**  Selecting DOM elements *
       const main = document.getElementById('main');
       const addUserBtn = document.getElementById('add-user');
       const doubleMoneyBtn = document.getElementById('double');
@@ -14,7 +14,7 @@ router
       const sortBtn = document.getElementById('sort');
       const calculateWealthBtn = document.getElementById('calculate-wealth');
       
-      //** Setting Event listeners
+      //** Setting Event listeners *
         addUserBtn.addEventListener('click', getRandomUser);
         doubleMoneyBtn.addEventListener('click', edu.doubleMoney);
         showMillionairesBtn.addEventListener('click', edu.showOnlyMil);
